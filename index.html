@@ -21,10 +21,10 @@
   <body>
     <!-----Header----->
     <header class="header">
-      <div class="container">
-        <nav class="header-navigation">
+      <div class="container header-container">
+        <nav class="header-nav">
           <a href="" class="header-logo link logo"
-            ><span class="accent">Web</span>Studio</a
+            ><span class="primary">Web</span>Studio</a
           >
 
           <ul class="header-list list">
@@ -40,7 +40,7 @@
           </ul>
         </nav>
 
-        <ul class="header-information list">
+        <ul class="header-info-list list">
           <li class="info-item">
             <a href="mailto:info@devstudio.com" class="header-info link"
               >info@devstudio.com</a
@@ -57,54 +57,62 @@
 
     <main>
       <!-----Hero----->
-      <section class="hero">
-        <div class="container">
+      <section class="hero section">
+        <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button type="button" class="hero-btn button">Order Service</button>
         </div>
       </section>
 
       <!-----Strategy----->
-      <section class="strategy">
+      <section class="strategy section">
         <div class="container">
           <h2 class="strategy-title visually-hidden">
             Our main principles in work
           </h2>
           <ul class="strategy-list list">
             <li class="strategy-item">
-              <h3 class="strategy-subtitle subtitle">Strategy</h3>
-              <p class="strategy-text text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
+              <div class="strategy-container">
+                <h3 class="strategy-subtitle subtitle">Strategy</h3>
+                <p class="strategy-text text">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
             </li>
             <li class="strategy-item">
-              <h3 class="strategy-subtitle subtitle">Punctuality</h3>
-              <p class="strategy-text text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
+              <div class="strategy-container">
+                <h3 class="strategy-subtitle subtitle">Punctuality</h3>
+                <p class="strategy-text text">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </div>
             </li>
             <li class="strategy-item">
-              <h3 class="strategy-subtitle subtitle">Diligence</h3>
-              <p class="strategy-text text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
+              <div class="strategy-container">
+                <h3 class="strategy-subtitle subtitle">Diligence</h3>
+                <p class="strategy-text text">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </div>
             </li>
             <li class="strategy-item">
-              <h3 class="strategy-subtitle subtitle">Technologies</h3>
-              <p class="strategy-text text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
+              <div class="strategy-container">
+                <h3 class="strategy-subtitle subtitle">Technologies</h3>
+                <p class="strategy-text text">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
       <!-----Result----->
-      <section class="result">
+      <section class="result section">
         <div class="container">
           <h2 class="result-title title">What are we doing</h2>
           <ul class="result-list list">
@@ -140,7 +148,7 @@
       </section>
 
       <!-----Team----->
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title title">Our team</h2>
           <ul class="team-list list">
@@ -152,8 +160,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle subtitle">Mark Guerrero</h3>
-              <p class="team-text text">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-subtitle subtitle">Mark Guerrero</h3>
+                <p class="team-text text">Product Designer</p>
+              </div>
             </li>
 
             <li class="team-item">
@@ -164,8 +174,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle subtitle">Tom Ford</h3>
-              <p class="team-text text">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="team-subtitle subtitle">Tom Ford</h3>
+                <p class="team-text text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -175,8 +187,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle subtitle">Camila Garcia</h3>
-              <p class="team-text text">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-subtitle subtitle">Camila Garcia</h3>
+                <p class="team-text text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -186,8 +200,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle subtitle">Daniel Wilson</h3>
-              <p class="team-text text">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-subtitle subtitle">Daniel Wilson</h3>
+                <p class="team-text text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -197,7 +213,7 @@
     <footer class="footer">
       <div class="container">
         <a class="footer-logo link logo" href=""
-          ><span class="accent">Web</span>Studio</a
+          ><span class="primary">Web</span>Studio</a
         >
         <p class="footer-text">
           Increase the flow of customers and sales for your business with
